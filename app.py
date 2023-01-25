@@ -1,7 +1,6 @@
 import streamlit as st 
 from PIL import Image
 import pandas as pd
-import numpy as np
 import folium
 from streamlit_folium import folium_static
 st.title('はるきのページ')
@@ -85,4 +84,4 @@ for i ,row in df1.iterrows():
 
 folium_static(m) # 地図情報を表示
 
-   
+    
