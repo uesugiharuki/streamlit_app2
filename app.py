@@ -84,4 +84,6 @@ for i ,row in df1.iterrows():
 
 folium_static(m) # 地図情報を表示
 
+
+
     
