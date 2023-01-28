@@ -10,7 +10,7 @@ st.caption('これは、テストアプリです。')
 
 #イメージテスト
 
-image=Image.open(r'data\img_2.gif')
+image=Image.open(r'data\img_2-7.jpg')
 st.image(image,width=200)
 
 
