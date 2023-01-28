@@ -10,13 +10,13 @@ st.caption('これは、テストアプリです。')
 
 #イメージテスト
 
-image=Image.open(r'.\data\img_2-7.jpg')
-st.image(image,width=200)
+#image=Image.open(r'img\img_2-7.jpg')
+#st.image(image,width=200)
 
 
 #動画テスト
 if st.checkbox('音声を再生....'):
-    video_file =open(r'.\data\01.m4a','rb')
+    video_file =open(r'img\01.m4a','rb')
     video_bytes=video_file.read()
     st.video(video_bytes)
 
